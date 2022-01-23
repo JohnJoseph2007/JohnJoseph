@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Joseph</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #f4fefd;
+            background: #202731;
+            overflow-x: hidden;
+        }
+        
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+
+        .blue {
+            background: #3c31dd
+        }
+
+        .red {
+            background: #dd3f31
+        }
+
+        .pink {
+            background: #ff0066
+        }
+
+        .dark {
+            background: #0f0f10
+        }
+
+        .bubble::after {
+            content:'';
+            border-top-left-radius: 50% 100%;
+            border-top-right-radius: 50% 100%;
+            position: absolute;
+            bottom: 0;
+            height: 85%;
+            width: 100%;
+            background: #0f0f10;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <section class="bubble">
+        <h1>Pokemon</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure! Harum, excepturi alias voluptate quas, repellat dolorum assumenda adipisci placeat nesciunt delectus doloremque sequi. In, voluptatum voluptates. Cum, excepturi debitis!</p>
+    </section>
+    <section class="dark">
+        <h1>Pokemon</h1>
+        <p>Rerum libero hic ipsum aperiam aspernatur illo dolor a. Non ipsum iusto omnis voluptatem, similique exercitationem? Quidem expedita adipisci harum, fugiat molestias recusandae minus, cupiditate optio ut, ratione rem a?</p>
+    </section>
+</body>
+</html>
